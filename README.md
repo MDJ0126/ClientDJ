@@ -1,2 +1,2 @@
 # ClientDJ
-Client. DJ
+Client. DJ's profile page
