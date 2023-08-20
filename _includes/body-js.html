@@ -1,0 +1,18 @@
+<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+{% if page.title != "404" %}
+<script src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+{% endif %}
+{% if page.title == "Home" or page.title == "404" %}
+<script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+<script>
+var particle_json_path = "{{ '/assets/json/particles.json' | relative_url }}"
+document.addEventListener(
+  "DOMContentLoaded",
+  (event) => {
+	particlesJS.load("particles-js", particle_json_path, function () {
+	  console.log("particles.js loaded - callback");
+	});
+  },
+  false
+);
+</script>
