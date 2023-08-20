@@ -1,0 +1,51 @@
+# site settings
+
+title: Clinet. DJ
+description: Information
+taglong: Jekyll theme for a beautiful online CV
+tagshort: Jekyll theme
+url: https://mdj0126.github.io/ClinetDJ
+baseurl: ""
+permalink: pretty
+repo: https://github.com/mdj0126
+
+# author settings
+
+author:
+  name: moondongjun
+  email: ehdwns0126@gmail.com
+photo: /assets/jpg/photo.jpg
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
