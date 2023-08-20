@@ -5,7 +5,7 @@ description: Information
 taglong: Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
 url: https://mdj0126.github.io/
-baseurl: /ClientDJ/
+baseurl: /ClientDJ
 permalink: pretty
 repo: https://github.com/mdj0126
 
