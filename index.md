@@ -5,11 +5,7 @@ title: Home
 
 # About
 
-Hello,
-
-It's a pleasure to make your acquaintance. I go by the name 'Client.DJ', and I'm an avid programmer with a passion for software development as well as game development. Within this page, you'll find introductions to a range of programs I've personally crafted. Whether it's in the realm of coding or creating captivating games, I'm always eager to explore and innovate.
-
-If you have any questions or would like to discuss anything further, please don't hesitate to reach out to me at ehdwns0126@gmail.com. Your feedback, collaborations, and inquiries are all highly valued. Looking forward to connecting with fellow enthusiasts and creators!
+{% include about.html %}
 
 ## Timeline
 
