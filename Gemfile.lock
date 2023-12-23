@@ -95,6 +95,7 @@ DEPENDENCIES
   jekyll-paginate-v2 (~> 3.0)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.17
